@@ -12,28 +12,28 @@ const portfolioProjects = [
     id: 2,
     title: 'SALES REPORT ANALYSIS USING POWER BI',
     description: 'In this project I  conducted an exploratory data analysis and visualization of a Burmese retail store\'s sales records for the year 2019 using Power BI. The data cleaning process was carried out with Power BI\'s Power Query Editor. The visualizations created focused on highlighting key performance indicators (KPIs) and uncovering insights to enhance the retail store\'s sales strategies. This analysis addressed several key questions, such as identifying the most sold products, determining the most profitable payment channel, and pinpointing the least profitable products. Additionally, I offered strategic recommendations aimed at fostering the growth of the retail store',
-    imageUrl: 'path_to_project2_cover_image.jpg',
+    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe8vmyfsx2a18g9td96nd.png',
     projectLink: 'https://dev.to/theophilus1320/data-analysis-with-power-bi-sales-analysis-156f'
   },
   {
     id: 3,
     title: 'DATA EXPLORATION AND ANALYSIS USING PYTHON',
     description: 'Performed exploratory data analysis on the Global development and  Prosperity Index for the year 2023. The dataset, which covers global development and prosperity metrics, was analyzed using Python libraries such as Numpy, Pandas, Matplotlib, and Seaborn. The analysis addresses several important questions, including identifying the top ten countries ranked in the Global Prosperity Index, the bottom ten countries, and the areas where the top ten prosperous countries excelled. It also highlights potential areas of improvement for the bottom ten ranked countries and explores the relationship between governance and living conditions within the recorded period.The findings of this analysis provide valuable insights into global prosperity trends and offer actionable recommendations for enhancing developmental outcomes. Through detailed data visualization and statistical analysis, this report aims to contribute to a deeper understanding of global prosperity dynamics.',
-    imageUrl: 'path_to_project3_cover_image.jpg',
+    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1nvmdmb24six6jws3qzh.png',
     projectLink: 'https://dev.to/theophilus1320/data-analysis-with-pythonanalysis-of-the-global-development-and-prosperity-index-for-the-year-2023-2fj4'
   },
   {
     id: 4,
     title: 'DATA EXPLORATION USING SQL',
     description: 'Performed exploratory data analysis on global internet usage using a dataset sourced from gapminder.org. This dataset includes information on the number of internet users and their percentages for countries around the world, among other details. Through extensive querying of the dataset, I obtained insights such as the total number of internet users worldwide, the countries with the highest and lowest numbers of internet users, the top five and bottom five countries by internet users, and the correlation between internet usage and a country’s population, among other findings.',
-    imageUrl: 'path_to_project4_cover_image.jpg',
+    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjkt6l3xgpy30ab3mkjcs.jpg',
     projectLink: 'https://dev.to/theophilus1320/exploratory-data-analysis-using-sql-10ka'
   },
   {
     id: 5,
     title: 'PEOPLE ANALYTICS USING MICROSOFT EXCEL',
     description: 'I carried out an Analysis on this HR dataset of one hundred  (100) host companies in Nigeria each with fellows assigned to them. The Analysis was done  to extract meaningful insights about the distribution and characteristics of the fellows across different companies. The analysis aimed to understand key aspects of the workforce composition, providing insights into the demographics and distribution of fellows. This information is essential for strategic planning, resource allocation, and improving HR practices within the organization. Key metrics such as the average number of fellows per company, Count of  Fellow By Age, Count of Fellow By Gender,  and Count of Fellow by Company Location were Captured and analyzed  with visualizations and a Dashboard Created.',
-    imageUrl: 'path_to_project5_cover_image.jpg',
+    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftj680lu4ttj9aboqb0gb.jpg',
     projectLink: 'https://dev.to/theophilus1320/data-analysis-with-microsoft-excel-people-analytics-43c2'
   }
 ];
