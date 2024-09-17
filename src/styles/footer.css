@@ -1,6 +1,6 @@
 footer {
-    background-color: #3b3e47;
-    color: #fff;
+    background-color: #1f2124;
+    color: #cfcbcb;
     padding: 20px 0;
   }
   
@@ -24,10 +24,11 @@ footer {
   
   .footer-section p {
     margin: 5px 0;
+    font-size: large;
   }
   
   .social-icons a {
-    color: #fff;
+    color: #cfcbcb;
     margin-right: 10px;
     text-decoration: none;
     padding: 5px;
@@ -35,9 +36,23 @@ footer {
     background-color: #444;
     transition: background-color 0.3s ease;
   }
+  .copy {
+    color: #cfcbcb;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .line {
+    border: solid 1px #cfcbcb;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
   
   .social-icons a:hover {
     background-color: #555;
+    color: #f0a500;
   }
   
   @media (max-width: 768px) {

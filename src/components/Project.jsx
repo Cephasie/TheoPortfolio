@@ -46,7 +46,7 @@ const Project = () => {
         {portfolioProjects.map((project) => (
           <div key={project.id} className="portfolio-item">
             <img src={project.imageUrl} alt={project.title} className="portfolio-image" />
-            <h3>{project.title}</h3>
+            <h3 className='title-class'>{project.title}</h3>
             <p>{project.description}</p>
             <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="view-project-button">
               View Project

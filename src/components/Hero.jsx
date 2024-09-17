@@ -12,6 +12,12 @@ const Hero = () => {
         and support organizations in making well-informed and actionable business decisions.
         </p>
       </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/theophilus-hemba-34121b194" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/lucas.hemba" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </div>
     </section>
   );
 };
