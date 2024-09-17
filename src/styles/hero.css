@@ -1,0 +1,71 @@
+/* Intro Section Styling with White Glow Animation */
+.intro-section {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1c1f26, #282c34, #3b3e47); /* Added gradient */
+    color: #fff;
+    overflow: hidden; /* Hide overflow for animations */
+    position: relative;
+  }
+  
+  .intro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  /* White glowing effect on the name */
+  .portfolio-owner-name {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5);
+    animation: whiteGlow 2s ease-in-out infinite alternate;
+    color: #fff;
+  }
+  
+  /* Italic font style for description */
+  .intro-description {
+    font-size: 20px;
+    line-height: 1.8;
+    font-style: italic; /* Italic style added */
+    margin: 0 auto;
+    color: #ddd;
+    opacity: 0;
+    animation: fadeIn 2s ease-in 1.5s forwards;
+  }
+  
+  /* Keyframes for smooth fade-in and move-up animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* White glowing text animation */
+  @keyframes whiteGlow {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.4), 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  /* Keyframes for description fade-in */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
