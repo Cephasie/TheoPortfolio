@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="intro-section">
       <div className="intro-container">
-        <h4 className="portfolio-owner-name">Theophilus Hemba</h4>
+        <h4 className="portfolio-owner-name">Theophilus' Portfolio</h4>
         <p className="intro-description">
         Detail-oriented Data Analyst, proficient in Excel, Power BI, SQL, and Python. Passionate about 
         data transformation and analysis, and adept at crafting insightful visualizations that uncover 
@@ -12,11 +12,8 @@ const Hero = () => {
         and support organizations in making well-informed and actionable business decisions.
         </p>
       </div>
-      <div class="social-icons">
+      <div class="social-hero">
         <a href="https://www.linkedin.com/in/theophilus-hemba-34121b194" target="_blank">LinkedIn</a>
-        <a href="https://www.facebook.com/lucas.hemba" target="_blank">Facebook</a>
-        <a href="https://twitter.com" target="_blank">Twitter</a>
-        <a href="https://instagram.com" target="_blank">Instagram</a>
       </div>
     </section>
   );

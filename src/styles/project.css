@@ -35,6 +35,11 @@
     object-fit: cover;
     border-radius: 10px 10px 0 0;
   }
+
+  .portfolio-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
   
   .view-project-button {
     /* display: inline-block; */

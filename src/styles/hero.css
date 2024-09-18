@@ -34,6 +34,19 @@
     opacity: 0;
     animation: fadeIn 1s ease-in 1.5s forwards;
   }
+  .social-hero a {
+    color: #cfcbcb;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #444;
+    transition: background-color 0.3s ease;
+  }
+  .social-hero a:hover {
+    background-color: #555;
+    color: #f0a500;
+  }
   
   @keyframes fadeInUp {
     0% {

@@ -5,14 +5,14 @@ const portfolioProjects = [
     id: 1,
     title: 'HEALTHCARE ANALYTICS WITH MICROSOFT EXCEL',
     description: 'I carried out exploratory data Analysis on this Healthcare dataset which consists of 10,000 patient records, each representing a synthetic patient healthcare record. The dataset includes various attributes, such as patient demographics, medical conditions, admission details, and more. Data cleaning, analysis and visualization was done using Microsoft  Excel with metrics like Count of Patients by Gender, number of patients per medical condition, and  total billing amount by each insurance provider or company were captured and a dashboard created.',
-    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjr40mft8eu140rpsruov.jpg',
+    imageUrl: 'https://res.cloudinary.com/dtqrzl86y/image/upload/v1726647801/Personal%20Gigs/health_wltzhc.jpg',
     projectLink: 'https://dev.to/theophilus1320/health-care-analytics-with-microsoft-excel-5h9l'
   },
   {
     id: 2,
     title: 'SALES REPORT ANALYSIS USING POWER BI',
     description: 'In this project I  conducted an exploratory data analysis and visualization of a Burmese retail store\'s sales records for the year 2019 using Power BI. The data cleaning process was carried out with Power BI\'s Power Query Editor. The visualizations created focused on highlighting key performance indicators (KPIs) and uncovering insights to enhance the retail store\'s sales strategies. This analysis addressed several key questions, such as identifying the most sold products, determining the most profitable payment channel, and pinpointing the least profitable products. Additionally, I offered strategic recommendations aimed at fostering the growth of the retail store',
-    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe8vmyfsx2a18g9td96nd.png',
+    imageUrl: 'https://res.cloudinary.com/dtqrzl86y/image/upload/v1726647801/Personal%20Gigs/power-BI_aobn1q.png',
     projectLink: 'https://dev.to/theophilus1320/data-analysis-with-power-bi-sales-analysis-156f'
   },
   {
@@ -26,14 +26,14 @@ const portfolioProjects = [
     id: 4,
     title: 'DATA EXPLORATION USING SQL',
     description: 'Performed exploratory data analysis on global internet usage using a dataset sourced from gapminder.org. This dataset includes information on the number of internet users and their percentages for countries around the world, among other details. Through extensive querying of the dataset, I obtained insights such as the total number of internet users worldwide, the countries with the highest and lowest numbers of internet users, the top five and bottom five countries by internet users, and the correlation between internet usage and a country’s population, among other findings.',
-    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjkt6l3xgpy30ab3mkjcs.jpg',
+    imageUrl: 'https://res.cloudinary.com/dtqrzl86y/image/upload/v1726648746/Personal%20Gigs/sqlf_ikagrq.png',
     projectLink: 'https://dev.to/theophilus1320/exploratory-data-analysis-using-sql-10ka'
   },
   {
     id: 5,
     title: 'PEOPLE ANALYTICS USING MICROSOFT EXCEL',
     description: 'I carried out an Analysis on this HR dataset of one hundred  (100) host companies in Nigeria each with fellows assigned to them. The Analysis was done  to extract meaningful insights about the distribution and characteristics of the fellows across different companies. The analysis aimed to understand key aspects of the workforce composition, providing insights into the demographics and distribution of fellows. This information is essential for strategic planning, resource allocation, and improving HR practices within the organization. Key metrics such as the average number of fellows per company, Count of  Fellow By Age, Count of Fellow By Gender,  and Count of Fellow by Company Location were Captured and analyzed  with visualizations and a Dashboard Created.',
-    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftj680lu4ttj9aboqb0gb.jpg',
+    imageUrl: 'https://res.cloudinary.com/dtqrzl86y/image/upload/v1726647801/Personal%20Gigs/excel_r3l4k9.jpg',
     projectLink: 'https://dev.to/theophilus1320/data-analysis-with-microsoft-excel-people-analytics-43c2'
   }
 ];
