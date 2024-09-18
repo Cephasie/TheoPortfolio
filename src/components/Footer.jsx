@@ -8,7 +8,7 @@ export default function Footer() {
     <footer>
       <div className="footer-container">
         <div className="footer-section">
-          <h4>Contact Me</h4>
+          <h4>Contact</h4>
           <p>Phone: +234 7019681052</p>
           <p>Mobile: +234 8033134026</p>
           <p>Email: <a href="mailto:theophiluspep@gmail.com">theophiluspep@gmail.com</a></p>
