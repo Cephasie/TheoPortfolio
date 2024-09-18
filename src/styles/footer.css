@@ -14,8 +14,8 @@ footer {
 }
 
 .footer-section {
-  flex: 1;
-  padding: 0 20px; 
+  padding: 0 0px; 
+  margin-left: 50px;
   min-width: 200px;
 }
 
