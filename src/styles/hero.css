@@ -8,7 +8,7 @@
   }
   
   .intro-container {
-    /* max-width: 800px; */
+    max-width: 1000px;
     margin: 0 auto;
     opacity: 0;
     transform: translateY(50px);
