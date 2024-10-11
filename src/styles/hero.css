@@ -1,6 +1,6 @@
 .intro-section {
     padding: 100px 20px;
-    text-align: center;
+    text-align:center;
     background: linear-gradient(135deg, #1f2124, #4e5052, #1f2124);
     color: #fff;
     overflow: hidden;
@@ -8,7 +8,7 @@
   }
   
   .intro-container {
-    max-width: 1000px;
+    /* max-width: 800px; */
     margin: 0 auto;
     opacity: 0;
     transform: translateY(50px);
