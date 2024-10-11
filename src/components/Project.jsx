@@ -42,13 +42,13 @@ const portfolioProjects = [
 const PortfolioItem = memo(({ project }) => {
   return (
     <div className="portfolio-item">
+      <h3 className="title-class">{project.title}</h3>
       <img
         src={project.imageUrl}
         alt={project.title}
         className="portfolio-image"
         loading="lazy"
       />
-      <h3 className="title-class">{project.title}</h3>
       <p>{project.description}</p>
       <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="view-project-button">
         View Project
@@ -60,7 +60,7 @@ const PortfolioItem = memo(({ project }) => {
 const Project = () => {
   return (
     <section className="portfolio-section">
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
       <div className="portfolio-container">
         <Suspense fallback={<div>Loading Projects...</div>}>
           {portfolioProjects.map((project) => (
