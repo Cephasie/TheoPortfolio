@@ -43,6 +43,8 @@ const portfolioProjects = [
 ];
 
 const PortfolioItem = memo(({ project }) => {
+  // displayName = 'PortfolioItem',
+  // here to stay
   return (
     <div className="portfolio-item">
       <h3 className="title-class">{project.title}</h3>
@@ -52,7 +54,7 @@ const PortfolioItem = memo(({ project }) => {
         className="portfolio-image"
         loading="lazy"
       />
-      <p>{project.description}</p>
+      <p>{project.description || "Project Description"}</p>
       <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="view-project-button">
         View Project
       </a>
@@ -60,6 +62,7 @@ const PortfolioItem = memo(({ project }) => {
   );
 });
 
+// PortfolioItem.displayName = "PortfolioItem";
 const Project = () => {
   return (
     <section className="portfolio-section">

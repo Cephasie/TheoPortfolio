@@ -13,7 +13,6 @@ export default function Footer() {
           <p>Mobile: +234 8033134026</p>
           <p>Email: <a href="mailto:theophiluspep@gmail.com">theophiluspep@gmail.com</a></p>
         </div>
-
         <div className="footer-section">
           <h4 className='soc'>Social</h4>
           <div className="social-icons">
