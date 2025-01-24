@@ -44,7 +44,6 @@ const portfolioProjects = [
 
 const PortfolioItem = memo(({ project }) => {
   // displayName = 'PortfolioItem',
-  // here to stay
   return (
     <div className="portfolio-item">
       <h3 className="title-class">{project.title}</h3>
