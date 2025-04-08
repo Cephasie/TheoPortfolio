@@ -22,7 +22,7 @@ const portfolioProjects = [
     id: 3,
     title: 'DATA EXPLORATION AND ANALYSIS USING PYTHON',
     description: 'I analyzed the 2023 Global Development and Prosperity Index using Python libraries, focusing on key metrics. Insights included the top and bottom ten ranked countries, their strengths, and areas for improvement. The study examined the link between governance and living conditions, providing actionable recommendations. Visualizations and statistical analysis revealed global prosperity trends. The findings aim to enhance developmental outcomes and understanding of prosperity dynamics.',
-    imageUrl: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1nvmdmb24six6jws3qzh.png',
+    imageUrl: 'https://res.cloudinary.com/dtqrzl86y/image/upload/v1744065352/HIM_aiqsms.png',
     projectLink: 'https://dev.to/theophilus1320/data-analysis-with-pythonanalysis-of-the-global-development-and-prosperity-index-for-the-year-2023-2fj4'
   },
   {
